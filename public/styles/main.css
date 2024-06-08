@@ -101,8 +101,7 @@ body {
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
-  -webkit-text-decoration-skip: ink;
-          text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto;
 }
 
 /* Make images easier to work with */
@@ -379,10 +378,8 @@ li:not([class]) {
 }
 .card img {
   height: 12rem;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  object-fit: cover;
+  object-position: center;
 }
 .card .card-details {
   padding: 1rem;
@@ -604,4 +601,6 @@ li:not([class]) {
     font-size: 1rem;
     font-weight: 600;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
